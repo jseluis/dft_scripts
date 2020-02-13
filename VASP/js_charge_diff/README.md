@@ -28,7 +28,11 @@ python charge_diff.py -i ./melamine_hex_bader/ -g .5
 ### Important:
 
 -i or --input (mandatory) ; Folder with files ACF.dat and POSCAR.
+
 -g or --greater (not mandatory) ; Return the atoms with valence charge difference which are greater than a specified value.
+
 -l or --lower (not mandatory) ; Return the atoms with valence charge difference which are lower than a specified value"
+
+#### You just need POSCAR and ACF.dat in the folder.
 
 

@@ -1,5 +1,5 @@
 # js_charge_diff.py
-This script plots the valence charge difference using output formatting from VASP code.
+This script plots the valence charge difference using output formatting from a bader analysis using VASP code.
 
 If you want to try, please make sure that valence charges from you pseudopotentials
 are inside the dictionary in the main program. If they are not covered, please add it.

@@ -8,13 +8,13 @@ are inside the dictionary in the main program. If they are not covered, please a
 
 For example: If you have 4 Ti and 3 Se, you should edit the js_charge_diff.py such that:
 
-before editing:
+### before editing:
 
 def charge_values(element):
     x = {'Au':11.,'C':4,'H':1,'N':5}
     return x[element]
 
-after editing:
+### after editing:
 def charge_values(element):
     x = {'Au':11.,'C':4,'H':1,'N':5, 'Ti':3, 'Se':3}
     return x[element]

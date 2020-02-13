@@ -1,0 +1,61 @@
+SYSTEM = c2_oh2_ruthenium_mol
+# Start parameters for this run:
+ISTART = 0
+ICHARG = 2
+PREC   = Accurate
+ISPIN = 2 
+NUPDOWN = 0
+#LSORBIT = .TRUE.
+#LNONCOLLINEAR = .TRUE.
+#SAXIS = 0 0 1
+#GGA_COMPAT = .FALSE.
+NELECT = 166
+
+LREAL = Auto
+# Electronic Relaxation 1
+ENCUT  = 700
+#NBANDS = 512
+#NELM = 5
+EDIFF  = 1E-05
+EDIFFG = -0.01
+
+#XPS calculations
+ICORELEVEL = 2
+CLNT = 1
+CLN = 1
+CLL = 0
+CLZ = 0.5
+
+# Electronic relaxation 2
+IALGO  = 38     NELM =  40  NELMIN = 0  NELMDL  = -2   
+BMIX   = 2.0
+TIME   = 0.05
+IALGO = 48
+#NSW    = 200
+#IBRION = 2
+#ISIF   = 2
+#NELMIN = 4
+POTIM = 0.5
+
+# DOS related values:
+ISMEAR = 0 
+SIGMA = 0.01
+#NEDOS  = 4601
+#EMIN = -30.00
+#EMAX = 30.00
+
+# Exchange correlation treatment:
+#GGA = BO
+#PARAM1 = 0.1833333333
+#PARAM2 = 0.2200000000
+#LUSE_VDW = .TRUE.
+#AGGAC = 0.0000
+
+# Write flags
+#LWANNIER90 = .TRUE.
+#LWAVE = .FALSE.
+#LORBIT = 11
+#LELF = .TRUE.
+#LCHARG = .FALSE. 
+#LVHAR = .TRUE.
+ADDGRID = .TRUE.
